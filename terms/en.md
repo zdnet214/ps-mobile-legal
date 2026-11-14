@@ -14,7 +14,7 @@ By installing or using the app, you agree to these terms and to the Privacy Poli
 
 ## 2. Who we are
 
-The app is provided by **<LEGAL_NAME>** ("we", "us"). You can contact us at **<CONTACT_EMAIL>**.
+The app is provided by **Pixel Studio** ("we", "us"). You can contact us at **zdnet214@gmail.com**.
 
 ## 3. The licence we grant
 
@@ -68,7 +68,7 @@ You may stop using the app at any time. We may suspend or terminate the licence 
 
 ## 12. Governing law and disputes
 
-These terms are governed by the laws of **<JURISDICTION>**, without regard to conflict-of-law rules. Disputes will be brought in the courts of **<JURISDICTION>**, unless a mandatory consumer-protection rule gives you the right to bring a claim in your country of residence. Nothing in this section prevents either party from seeking urgent injunctive relief.
+These terms are governed by the laws of **Mainland China (People's Republic of China)**, without regard to conflict-of-law rules. Disputes will be brought in the competent courts in **Mainland China (People's Republic of China)**, unless a mandatory consumer-protection rule gives you the right to bring a claim in your country of residence. Nothing in this section prevents either party from seeking urgent injunctive relief.
 
 ## 13. Changes to these terms
 
@@ -76,8 +76,8 @@ We may update these terms when the app or the law changes. The new version will 
 
 ## 14. Contact
 
-**<LEGAL_NAME>**
-Email: **<CONTACT_EMAIL>**
-Jurisdiction: **<JURISDICTION>**
+**Pixel Studio**
+Email: **zdnet214@gmail.com**
+Jurisdiction: **Mainland China (People's Republic of China)**
 
 The current version of these terms is also published online at the address linked from the app's About screen.

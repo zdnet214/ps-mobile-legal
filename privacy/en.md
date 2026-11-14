@@ -10,9 +10,9 @@ Pixel Studio is an offline photo tool for Android. This policy explains what the
 
 ## 1. Who we are
 
-The app is published by **<LEGAL_NAME>** ("we", "us"). For privacy questions, contact **<CONTACT_EMAIL>**.
+The app is published by **Pixel Studio** ("we", "us"). For privacy questions, contact **zdnet214@gmail.com**.
 
-The legal jurisdiction for this policy is **<JURISDICTION>**.
+The legal jurisdiction for this policy is **Mainland China (People's Republic of China)**.
 
 ## 2. The short version
 
@@ -79,7 +79,7 @@ Depending on where you live, you may have the right to:
 - withdraw consent where processing is based on consent;
 - complain to a data-protection authority.
 
-Because we do not hold a server copy of your photos or app data, many requests can be fulfilled on your device: delete the relevant photos or results in your gallery, clear the app's data, or uninstall the app. You can also contact us at **<CONTACT_EMAIL>** and we will explain what we can do.
+Because we do not hold a server copy of your photos or app data, many requests can be fulfilled on your device: delete the relevant photos or results in your gallery, clear the app's data, or uninstall the app. You can also contact us at **zdnet214@gmail.com** and we will explain what we can do.
 
 If you are in the EEA or the UK, you have the right to lodge a complaint with your local supervisory authority. If you are in mainland China, you may exercise your PIPL rights, including access, correction, deletion and withdrawal of consent, by contacting us or using the device controls above. California residents: we do not sell or share personal information as those terms are defined by the CCPA/CPRA.
 
@@ -97,13 +97,13 @@ We may update this policy when the app or the law changes. The new version will 
 
 ## 13. Complaints
 
-If you have a concern, contact us first at **<CONTACT_EMAIL>** so we can try to resolve it. You also have the right to complain to your local data-protection authority or, where applicable, to a consumer-protection authority.
+If you have a concern, contact us first at **zdnet214@gmail.com** so we can try to resolve it. You also have the right to complain to your local data-protection authority or, where applicable, to a consumer-protection authority.
 
 ## 14. Contact
 
-**<LEGAL_NAME>**
-Email: **<CONTACT_EMAIL>**
-Jurisdiction: **<JURISDICTION>**
+**Pixel Studio**
+Email: **zdnet214@gmail.com**
+Jurisdiction: **Mainland China (People's Republic of China)**
 
 ## 15. About the online version
 

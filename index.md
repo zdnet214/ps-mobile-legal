@@ -20,6 +20,6 @@ Pixel Studio / 像素工坊 is an offline Android photo tool. This site publishe
 
 ## Contact
 
-Questions about these documents can be sent to <CONTACT_EMAIL>.
+Questions about these documents can be sent to zdnet214@gmail.com.
 
 The app itself does not request the Android `INTERNET` permission. Opening a link on this site hands it to your browser, whose own privacy practices apply.
