@@ -8,15 +8,15 @@ Pixel Studio / 像素工坊 is an offline Android photo tool. This site publishe
 
 ## Privacy Policy
 
-- [English](/privacy/en/)
-- [简体中文](/privacy/zh-Hans/)
-- [繁體中文](/privacy/zh-Hant/)
+- [English]({{ '/privacy/en/' | relative_url }})
+- [简体中文]({{ '/privacy/zh-Hans/' | relative_url }})
+- [繁體中文]({{ '/privacy/zh-Hant/' | relative_url }})
 
 ## Terms of Use
 
-- [English](/terms/en/)
-- [简体中文](/terms/zh-Hans/)
-- [繁體中文](/terms/zh-Hant/)
+- [English]({{ '/terms/en/' | relative_url }})
+- [简体中文]({{ '/terms/zh-Hans/' | relative_url }})
+- [繁體中文]({{ '/terms/zh-Hant/' | relative_url }})
 
 ## Contact
 
