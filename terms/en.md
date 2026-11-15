@@ -2,8 +2,8 @@
 title: Terms of Use
 layout: default
 lang: en
-version: 1.0
-last_updated: 2026-11-14
+version: 1.1
+last_updated: 2026-11-15
 permalink: /terms/en/
 ---
 These terms govern your use of Pixel Studio. Please read them before using the app. If you do not agree, do not use the app.
@@ -14,7 +14,7 @@ By installing or using the app, you agree to these terms and to the Privacy Poli
 
 ## 2. Who we are
 
-The app is provided by **Pixel Studio** ("we", "us"). You can contact us at **zdnet214@gmail.com**.
+The app is provided by **Pixel Studio** ("we", "us"). You can contact us at **support@pixel-studio.cn**.
 
 ## 3. The licence we grant
 
@@ -77,7 +77,7 @@ We may update these terms when the app or the law changes. The new version will 
 ## 14. Contact
 
 **Pixel Studio**
-Email: **zdnet214@gmail.com**
+Email: **support@pixel-studio.cn**
 Jurisdiction: **Mainland China (People's Republic of China)**
 
 The current version of these terms is also published online at the address linked from the app's About screen.

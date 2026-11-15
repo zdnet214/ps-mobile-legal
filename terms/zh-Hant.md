@@ -2,8 +2,8 @@
 title: 使用者條款
 layout: default
 lang: zh-Hant
-version: 1.0
-last_updated: 2026-11-14
+version: 1.1
+last_updated: 2026-11-15
 permalink: /terms/zh-Hant/
 ---
 本條款適用於您對像素工坊（Pixel Studio）的使用。使用前請閱讀。如果您不同意，請不要使用本應用程式。
@@ -14,7 +14,7 @@ permalink: /terms/zh-Hant/
 
 ## 2. 我們是誰
 
-本應用程式由 **Pixel Studio**（下稱「我們」）提供。聯絡方式：**zdnet214@gmail.com**。
+本應用程式由 **Pixel Studio**（下稱「我們」）提供。聯絡方式：**support@pixel-studio.cn**。
 
 ## 3. 授權許可
 
@@ -77,7 +77,7 @@ permalink: /terms/zh-Hant/
 ## 14. 聯絡方式
 
 **Pixel Studio**
-電子郵件：**zdnet214@gmail.com**
+電子郵件：**support@pixel-studio.cn**
 適用法域：**中華人民共和國大陸地區**
 
 本條款的最新版本也會發布在應用程式「關於」頁面連結的線上地址。

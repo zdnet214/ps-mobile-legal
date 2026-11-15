@@ -2,8 +2,8 @@
 title: 用户协议
 layout: default
 lang: zh-Hans
-version: 1.0
-last_updated: 2026-11-14
+version: 1.1
+last_updated: 2026-11-15
 permalink: /terms/zh-Hans/
 ---
 本协议适用于你对像素工坊（Pixel Studio）的使用。使用前请阅读。如果你不同意，请不要使用本 App。
@@ -14,7 +14,7 @@ permalink: /terms/zh-Hans/
 
 ## 2. 我们是谁
 
-本 App 由 **Pixel Studio**（下称“我们”）提供。联系方式：**zdnet214@gmail.com**。
+本 App 由 **Pixel Studio**（下称“我们”）提供。联系方式：**support@pixel-studio.cn**。
 
 ## 3. 授权许可
 
@@ -77,7 +77,7 @@ permalink: /terms/zh-Hans/
 ## 14. 联系方式
 
 **Pixel Studio**
-电子邮箱：**zdnet214@gmail.com**
+电子邮箱：**support@pixel-studio.cn**
 适用法域：**中华人民共和国大陆地区**
 
 本协议的最新版本也会发布在 App“关于”页面链接的在线地址。
