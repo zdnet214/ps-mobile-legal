@@ -100,6 +100,7 @@
       padding: 8px;
     }
     .shot img { width: 100%; height: 100%; object-fit: cover; border-radius: 14px; }
+    .shot.filled { border: 0; padding: 0; overflow: hidden; }
     .cards:empty, .shots:empty { display: none; }
     footer { border-top: 1px solid var(--line); padding: 28px 20px 56px; color: var(--muted); font-size: 0.9rem; }
     footer nav a { margin-right: 16px; }
@@ -147,7 +148,7 @@
     <section id="screenshots">
       <div class="shots">
         {% for shot in copy.screenshots %}
-        <figure class="shot"><img src="{{ shot.src | relative_url }}" alt="{{ shot.alt | escape }}" loading="lazy"></figure>
+        <figure class="shot filled"><img src="{{ shot.src | relative_url }}" alt="{{ shot.alt | escape }}" loading="lazy" width="720" height="1496"></figure>
         {% endfor %}
         {% assign shot_count = copy.screenshots.size | default: 0 %}
         {% assign missing = 4 | minus: shot_count %}

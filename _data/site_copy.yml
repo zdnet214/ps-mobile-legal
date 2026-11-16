@@ -76,7 +76,15 @@ zh-Hans:
     contact: support@pixel-studio.cn
     copyright: © 2026 Pixel Studio
   screenshot_placeholder: 截图待补
-  screenshots: []
+  screenshots:
+    - src: /assets/shots/library.jpg
+      alt: 图库按年月分组，右侧的年份与月份尺可以直接跳转
+    - src: /assets/shots/tools.jpg
+      alt: 工具页列出六个工具，每个注明可选的张数
+    - src: /assets/shots/adjust.jpg
+      alt: 调整编辑器里画了一个径向蒙版，只降低画面局部的曝光
+    - src: /assets/shots/panorama.jpg
+      alt: 三张有重叠的照片拼成一张全景，可切换投影与自动裁切
 
 en:
   locale: en
@@ -146,4 +154,12 @@ en:
     contact: support@pixel-studio.cn
     copyright: © 2026 Pixel Studio
   screenshot_placeholder: Screenshot coming soon
-  screenshots: []
+  screenshots:
+    - src: /assets/shots/library.jpg
+      alt: The gallery grouped by month, with the year and month rail on the right
+    - src: /assets/shots/tools.jpg
+      alt: The tools tab, listing six tools and how many photos each one takes
+    - src: /assets/shots/adjust.jpg
+      alt: A radial mask in the adjust editor lowering the exposure of one part of the photo
+    - src: /assets/shots/panorama.jpg
+      alt: Three overlapping photos stitched into one panorama, with projection and auto-crop controls
