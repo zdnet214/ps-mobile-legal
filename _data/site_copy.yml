@@ -54,7 +54,7 @@ zh-Hans:
       - RAW 解码、HDR、全景、堆栈、景深与调整都由随包的原生库在这台设备上完成，处理过程不经过服务器。
       - 应用启动时会核对自身签名，被重新签名的包会直接停在提示页，改过的 APK 无法冒充官方版本。
   install:
-    title: 安装三步
+    title: 安装四步
     steps:
       - 点上面的按钮下载 APK，留意文件大小与 SHA-256 和页面显示的一致。
       - 打开下载的文件；如果系统提示，给浏览器打开「安装未知应用」的权限。
@@ -124,7 +124,7 @@ en:
       - RAW decoding, HDR, panorama, stacking, focus and adjustment all run in the native libraries that ship inside the app; no step goes through a server.
       - The app checks its own signing certificate at launch; a re-signed build stops on a blocking screen, so a modified APK cannot pass as the official one.
   install:
-    title: Install in three steps
+    title: Install in four steps
     steps:
       - Download the APK with the button above, and check that the size and SHA-256 match what this page shows.
       - Open the downloaded file; if the system asks, allow your browser to install unknown apps.
