@@ -1,0 +1,149 @@
+# Landing page copy, one block per language.
+#
+# _layouts/landing.html reads site.data.site_copy[page.lang] and falls back to
+# a default for every field, so a missing key renders as empty text instead of
+# failing the build. test/legal/site_copy_test.dart keeps the two blocks in
+# step: same key set, no empty string, every internal path exists on disk.
+#
+# The capability list must match the shipped build. A tool that is not in the
+# build is not named here (see specs/app-site: Landing page content).
+
+zh-Hans:
+  locale: zh-Hans
+  legal_locale: zh-Hans
+  language_switch:
+    label: English
+    url: /en/
+  hero:
+    name: 像素工坊
+    latin: Pixel Studio
+    tagline: 离线处理 · 不联网 · 不上传
+    intro: 从相册里选图，在本机完成切图、HDR、RAW 解码、全景、堆栈与调整。release 包不声明网络权限，照片不会离开设备。
+    download: 下载 APK
+    download_hint: Android 10 及以上 · arm64
+    latest: 下载最新版本
+  download:
+    title: 当前版本
+    version: 版本
+    build: 构建
+    size: 文件大小
+    sha256: SHA-256
+    abi: 架构
+    min_android: 最低系统
+    released: 发布日期
+    verify: 下载后可用系统的 SHA-256 校验值核对文件，与这里显示的一致再安装。
+  capabilities:
+    title: 六个工具，都在设备上跑
+    items:
+      - title: 切图
+        body: 一张照片按行 × 列等分成小块，1 到 8 任选，切片写回相册的独立目录。
+      - title: HDR 合成
+        body: 同一场景 2 到 5 张不同曝光合成一张；整组都是 RAW 时输出 16 位线性 DNG，保留高光。
+      - title: 调整
+        body: 基础、色彩、效果、蒙版、色阶、曲线六组参数，可存为预设复用到其他照片。
+      - title: 堆栈
+        body: 同机位多张合成，平均值、中位数或最大值，用来降噪、叠星轨或去掉移动的人。
+      - title: 全景拼接
+        body: 按拍摄顺序拼接有重叠的几张，自动判断投影与接缝，另有高分辨率档。
+      - title: 景深合成
+        body: 近景、中景、远景分别对焦，合成一张处处清晰的照片。
+  offline:
+    title: 「不联网」是可以核对的
+    items:
+      - release 安装包不声明 INTERNET 权限，装好后可以在系统的「应用信息」里看到它没有任何联网权限。
+      - RAW 解码、HDR、全景、堆栈、景深与调整都由随包的原生库在这台设备上完成，处理过程不经过服务器。
+      - 应用启动时会核对自身签名，被重新签名的包会直接停在提示页，改过的 APK 无法冒充官方版本。
+  install:
+    title: 安装三步
+    steps:
+      - 点上面的按钮下载 APK，留意文件大小与 SHA-256 和页面显示的一致。
+      - 打开下载的文件；如果系统提示，给浏览器打开「安装未知应用」的权限。
+      - 装好从桌面图标启动。Play Protect 可能提示「未识别的应用」，那是因为安装包来自本站而不是商店。
+      - 本站版本不会自动更新；有新版本时回到这里重新下载，覆盖安装不会清除已有数据。
+  faq:
+    title: 常见问题
+    items:
+      - q: 会覆盖 Google Play 版吗？
+        a: 不能互相覆盖。Google Play 会用另一张证书重新签名，两个包被视为不同来源，装过商店版的话请先卸载再装本站版本；应用内数据会被清除，相册里的文件不受影响。
+      - q: 会自动更新吗？
+        a: 不会。应用没有网络权限，也就没有更新检查；新版本需要回到本站重新下载，覆盖安装不会清除已有数据。
+      - q: 对设备和系统有什么要求？
+        a: Android 10 及以上、arm64 设备。本站只提供真机使用的 arm64 包，模拟器用的 x86_64 包不上站。
+  footer:
+    privacy: 隐私政策
+    terms: 用户协议
+    contact_label: 联系邮箱
+    contact: support@pixel-studio.cn
+    copyright: © 2026 Pixel Studio
+  screenshot_placeholder: 截图待补
+  screenshots: []
+
+en:
+  locale: en
+  legal_locale: en
+  language_switch:
+    label: 简体中文
+    url: /
+  hero:
+    name: Pixel Studio
+    latin: 像素工坊
+    tagline: On-device · Offline · Nothing uploaded
+    intro: Pick photos from your gallery and split, merge, decode, stitch, stack or adjust them on the phone itself. The release build declares no network permission, so your photos never leave the device.
+    download: Download APK
+    download_hint: Android 10 or newer · arm64
+    latest: Always the latest build
+  download:
+    title: Current release
+    version: Version
+    build: Build
+    size: Size
+    sha256: SHA-256
+    abi: ABI
+    min_android: Minimum Android
+    released: Released
+    verify: After downloading, compare your file's SHA-256 with the value shown here before installing.
+  capabilities:
+    title: Six tools, all running on the phone
+    items:
+      - title: Split
+        body: Cut one photo into an equal grid of rows and columns, 1 to 8 each, saved into their own gallery folder.
+      - title: HDR merge
+        body: Merge 2 to 5 exposures of one scene; a bracket of RAWs becomes a 16-bit linear DNG that keeps the highlights.
+      - title: Adjust
+        body: Basic, colour, effects, masks, levels and curves, with presets that carry the look to other photos.
+      - title: Stack
+        body: Combine frames from one position with mean, median or maximum to cut noise, stack star trails or drop moving people.
+      - title: Panorama
+        body: Stitch overlapping frames in shooting order, with automatic projection and seams, plus a high-resolution mode.
+      - title: Focus stack
+        body: Focus near, middle and far, then fuse them into one frame that is sharp everywhere.
+  offline:
+    title: "“Offline” is something you can check"
+    items:
+      - The release APK declares no INTERNET permission — after installing, the system's app info screen shows it holds no network permission at all.
+      - RAW decoding, HDR, panorama, stacking, focus and adjustment all run in the native libraries that ship inside the app; no step goes through a server.
+      - The app checks its own signing certificate at launch; a re-signed build stops on a blocking screen, so a modified APK cannot pass as the official one.
+  install:
+    title: Install in three steps
+    steps:
+      - Download the APK with the button above, and check that the size and SHA-256 match what this page shows.
+      - Open the downloaded file; if the system asks, allow your browser to install unknown apps.
+      - Launch from the home screen. Play Protect may warn about an unrecognised app — that is because the build comes from this site, not from a store.
+      - This build never updates itself; come back here for a new version. Installing over the old one keeps your data.
+  faq:
+    title: Common questions
+    items:
+      - q: Will it replace a Google Play install?
+        a: No, the two cannot overwrite each other. Google Play re-signs the app with its own certificate, so the store build and this one count as different sources; uninstall the store copy first. In-app data is cleared, photos in the gallery are not affected.
+      - q: Does it update itself?
+        a: No. The app has no network permission, so there is no update check; come back here for a new version. Installing over the old one keeps your data.
+      - q: Which devices are supported?
+        a: Android 10 or newer on arm64. Only the arm64 build is published here; the x86_64 build exists for emulators and is not offered.
+  footer:
+    privacy: Privacy policy
+    terms: Terms of use
+    contact_label: Contact
+    contact: support@pixel-studio.cn
+    copyright: © 2026 Pixel Studio
+  screenshot_placeholder: Screenshot coming soon
+  screenshots: []

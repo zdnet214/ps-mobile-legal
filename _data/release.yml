@@ -1,0 +1,14 @@
+# Written by tool/publish_site_release.dart. Do not hand-edit
+# between releases; run the tool again instead.
+# The landing pages read only these values.
+version: "1.0.5"
+build: "4014"
+tag: "app-v1.0.5"
+abi: "arm64-v8a"
+size_bytes: "27118324"
+sha256: "1e7697aa0a23ecec7f31b8e93221426597b8a5a2639ce290d104f8f086e21f45"
+min_android: "Android 10 (API 29)"
+released_at: "2026-11-16"
+download_url: "https://github.com/zdnet214/ps-mobile-legal/releases/download/app-v1.0.5/PixelStudio-1.0.5-arm64-v8a.apk"
+latest_url: "https://github.com/zdnet214/ps-mobile-legal/releases/latest/download/psmobile-arm64-v8a.apk"
+notes_url: "https://github.com/zdnet214/ps-mobile-legal/releases/tag/app-v1.0.5"
