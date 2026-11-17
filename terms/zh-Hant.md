@@ -2,11 +2,11 @@
 title: 使用者條款
 layout: default
 lang: zh-Hant
-version: 1.1
-last_updated: 2026-11-15
+version: 1.2
+last_updated: 2026-11-16
 permalink: /terms/zh-Hant/
 ---
-本條款適用於您對像素工坊（Pixel Studio）的使用。使用前請閱讀。如果您不同意，請不要使用本應用程式。
+本條款適用於您對方寸光影（Pixel Studio）的使用。使用前請閱讀。如果您不同意，請不要使用本應用程式。
 
 ## 1. 使用即同意
 

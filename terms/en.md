@@ -2,8 +2,8 @@
 title: Terms of Use
 layout: default
 lang: en
-version: 1.1
-last_updated: 2026-11-15
+version: 1.2
+last_updated: 2026-11-16
 permalink: /terms/en/
 ---
 These terms govern your use of Pixel Studio. Please read them before using the app. If you do not agree, do not use the app.

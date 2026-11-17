@@ -2,8 +2,8 @@
 title: Privacy Policy
 layout: default
 lang: en
-version: 1.1
-last_updated: 2026-11-15
+version: 1.2
+last_updated: 2026-11-16
 permalink: /privacy/en/
 ---
 Pixel Studio is an offline photo tool for Android. This policy explains what the app does with your information, what it does not do, and the choices you have.

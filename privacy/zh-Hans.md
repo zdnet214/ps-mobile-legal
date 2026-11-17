@@ -2,11 +2,11 @@
 title: 隐私政策
 layout: default
 lang: zh-Hans
-version: 1.1
-last_updated: 2026-11-15
+version: 1.2
+last_updated: 2026-11-16
 permalink: /privacy/zh-Hans/
 ---
-像素工坊（Pixel Studio）是一款离线 Android 图片工具。本政策说明 App 会如何处理你的信息、不会做什么，以及你可以如何选择。
+方寸光影（Pixel Studio）是一款离线 Android 图片工具。本政策说明 App 会如何处理你的信息、不会做什么，以及你可以如何选择。
 
 ## 1. 我们是谁
 

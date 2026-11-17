@@ -2,11 +2,11 @@
 title: 隱私政策
 layout: default
 lang: zh-Hant
-version: 1.1
-last_updated: 2026-11-15
+version: 1.2
+last_updated: 2026-11-16
 permalink: /privacy/zh-Hant/
 ---
-像素工坊（Pixel Studio）是一款離線 Android 影像工具。本政策說明應用程式會如何處理您的資訊、不會做什麼，以及您可以如何選擇。
+方寸光影（Pixel Studio）是一款離線 Android 影像工具。本政策說明應用程式會如何處理您的資訊、不會做什麼，以及您可以如何選擇。
 
 ## 1. 我們是誰
 

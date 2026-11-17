@@ -2,11 +2,11 @@
 title: 用户协议
 layout: default
 lang: zh-Hans
-version: 1.1
-last_updated: 2026-11-15
+version: 1.2
+last_updated: 2026-11-16
 permalink: /terms/zh-Hans/
 ---
-本协议适用于你对像素工坊（Pixel Studio）的使用。使用前请阅读。如果你不同意，请不要使用本 App。
+本协议适用于你对方寸光影（Pixel Studio）的使用。使用前请阅读。如果你不同意，请不要使用本 App。
 
 ## 1. 使用即同意
 

@@ -15,7 +15,7 @@ zh-Hans:
     label: English
     url: /en/
   hero:
-    name: 像素工坊
+    name: 方寸光影
     latin: Pixel Studio
     tagline: 离线处理 · 不联网 · 不上传
     intro: 从相册里选图，在本机完成切图、HDR、RAW 解码、全景、堆栈与调整。release 包不声明网络权限，照片不会离开设备。
@@ -94,7 +94,7 @@ en:
     url: /
   hero:
     name: Pixel Studio
-    latin: 像素工坊
+    latin: 方寸光影
     tagline: On-device · Offline · Nothing uploaded
     intro: Pick photos from your gallery and split, merge, decode, stitch, stack or adjust them on the phone itself. The release build declares no network permission, so your photos never leave the device.
     download: Download APK
