@@ -1,14 +1,14 @@
 # Written by tool/publish_site_release.dart. Do not hand-edit
 # between releases; run the tool again instead.
 # The landing pages read only these values.
-version: "1.0.8"
-build: "4017"
-tag: "app-v1.0.8"
+version: "1.0.9"
+build: "4018"
+tag: "app-v1.0.9"
 abi: "arm64-v8a"
-size_bytes: "29131730"
-sha256: "349cabf1f679177101f0e142b0e0c0b67bc17aac9dbcb5a327cfdea07b6f721e"
+size_bytes: "28561230"
+sha256: "6e48b8c93baa5a518acc7eb86c43a1c54fabb81fac75fca71b63e2f981fecfba"
 min_android: "Android 10 (API 29)"
 released_at: "2026-11-17"
-download_url: "https://github.com/zdnet214/ps-mobile-legal/releases/download/app-v1.0.8/PixelStudio-1.0.8-arm64-v8a.apk"
+download_url: "https://github.com/zdnet214/ps-mobile-legal/releases/download/app-v1.0.9/PixelStudio-1.0.9-arm64-v8a.apk"
 latest_url: "https://github.com/zdnet214/ps-mobile-legal/releases/latest/download/psmobile-arm64-v8a.apk"
-notes_url: "https://github.com/zdnet214/ps-mobile-legal/releases/tag/app-v1.0.8"
+notes_url: "https://github.com/zdnet214/ps-mobile-legal/releases/tag/app-v1.0.9"
