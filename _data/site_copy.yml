@@ -32,6 +32,10 @@ zh-Hans:
     min_android: 最低系统
     released: 发布日期
     verify: 下载后可用系统的 SHA-256 校验值核对文件，与这里显示的一致再安装。
+    # The QR art encodes the stable releases/latest alias, so it never has to be
+    # regenerated when a new build is published; see assets/qr/download.png.
+    qr_src: /assets/qr/download.png
+    qr_hint: 扫码下载最新版 APK
   capabilities:
     title: 六个工具，都在设备上跑
     items:
@@ -110,6 +114,8 @@ en:
     min_android: Minimum Android
     released: Released
     verify: After downloading, compare your file's SHA-256 with the value shown here before installing.
+    qr_src: /assets/qr/download.png
+    qr_hint: Scan to download the latest APK
   capabilities:
     title: Six tools, all running on the phone
     items:

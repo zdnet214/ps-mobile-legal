@@ -73,6 +73,11 @@
     }
     .download .hint { color: var(--muted); font-size: 0.92rem; margin: 10px 0 0; }
     .download .latest { margin: 14px 0 0; }
+    .download-row { display: flex; gap: 24px; align-items: flex-start; }
+    .download-main { flex: 1 1 auto; min-width: 0; }
+    .qr { flex: 0 0 auto; margin: 0; text-align: center; }
+    .qr img { display: block; width: 200px; height: 200px; border-radius: 14px; background: #fff; }
+    .qr figcaption { color: var(--muted); font-size: 0.8rem; line-height: 1.45; margin: 8px auto 0; max-width: 200px; }
     dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 18px 0 0; }
     dl.facts dt { color: var(--muted); font-size: 0.9rem; }
     dl.facts dd { margin: 0; font-size: 0.9rem; overflow-wrap: anywhere; }
@@ -109,6 +114,10 @@
     @media (max-width: 640px) {
       .shots { grid-template-columns: repeat(2, 1fr); }
       .hero { padding-top: 32px; }
+      .download-row { flex-direction: column; align-items: stretch; }
+      .qr { align-self: center; }
+      .qr img { width: 184px; height: 184px; }
+      .qr figcaption { max-width: 184px; }
     }
   </style>
 </head>
@@ -130,18 +139,26 @@
 
     <section id="download">
       <div class="download">
-        <a class="button" href="{{ release.download_url | escape }}">{{ copy.hero.download }}</a>
-        <p class="hint">{{ copy.hero.download_hint }}</p>
-        <dl class="facts">
-          <dt>{{ copy.download.version }}</dt><dd>{{ release.version | escape }} ({{ release.build | escape }})</dd>
-          <dt>{{ copy.download.size }}</dt>{% assign size_num = release.size_bytes | plus: 0 %}<dd>{% if size_num > 0 %}{{ size_num | times: 1.0 | divided_by: 1048576 | round: 1 }} MB · {% endif %}{{ release.size_bytes | escape }} bytes</dd>
-          <dt>{{ copy.download.sha256 }}</dt><dd>{{ release.sha256 | escape }}</dd>
-          <dt>{{ copy.download.abi }}</dt><dd>{{ release.abi | escape }}</dd>
-          <dt>{{ copy.download.min_android }}</dt><dd>{{ release.min_android | escape }}</dd>
-          <dt>{{ copy.download.released }}</dt><dd>{{ release.released_at | escape }}</dd>
-        </dl>
-        <p class="verify">{{ copy.download.verify }}</p>
-        <p class="latest"><a class="button secondary" href="{{ release.latest_url | escape }}">{{ copy.hero.latest }}</a></p>
+        <div class="download-row">
+          <div class="download-main">
+            <a class="button" href="{{ release.download_url | escape }}">{{ copy.hero.download }}</a>
+            <p class="hint">{{ copy.hero.download_hint }}</p>
+            <dl class="facts">
+              <dt>{{ copy.download.version }}</dt><dd>{{ release.version | escape }} ({{ release.build | escape }})</dd>
+              <dt>{{ copy.download.size }}</dt>{% assign size_num = release.size_bytes | plus: 0 %}<dd>{% if size_num > 0 %}{{ size_num | times: 1.0 | divided_by: 1048576 | round: 1 }} MB · {% endif %}{{ release.size_bytes | escape }} bytes</dd>
+              <dt>{{ copy.download.sha256 }}</dt><dd>{{ release.sha256 | escape }}</dd>
+              <dt>{{ copy.download.abi }}</dt><dd>{{ release.abi | escape }}</dd>
+              <dt>{{ copy.download.min_android }}</dt><dd>{{ release.min_android | escape }}</dd>
+              <dt>{{ copy.download.released }}</dt><dd>{{ release.released_at | escape }}</dd>
+            </dl>
+            <p class="verify">{{ copy.download.verify }}</p>
+            <p class="latest"><a class="button secondary" href="{{ release.latest_url | escape }}">{{ copy.hero.latest }}</a></p>
+          </div>
+          <figure class="qr">
+            <a href="{{ release.latest_url | escape }}"><img src="{{ copy.download.qr_src | relative_url }}" alt="{{ copy.download.qr_hint | escape }}" width="200" height="200" loading="lazy"></a>
+            <figcaption>{{ copy.download.qr_hint }}</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
